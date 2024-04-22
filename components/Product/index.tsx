@@ -35,7 +35,7 @@ const Product = () => {
                     {
                         urlList.map((item, index) => {
                             return (
-                                <div className='flex-grow border box-border h-[500px] border-white  hover:flex-grow-[2]  transition-all duration-300 cursor-pointer bg-cover bg-center bg-no-repeat group/item relative'
+                                <div key={index} className='flex-grow border box-border h-[500px] border-white  hover:flex-grow-[2]  transition-all duration-300 cursor-pointer bg-cover bg-center bg-no-repeat group/item relative'
                                     style={{ backgroundImage: `url(${item})` }}
                                 >
                                     <div className='bg-blue-500 bg-opacity-90  h-5/6  rounded-br-[40px]  flex-col items-center p-10 text-white group-hover/item:scale-x-[100%] origin-left  scale-x-0 w-1/3 flex    transition-all duration-300'>

@@ -27,7 +27,7 @@ const AboutUs = () => {
                     {
                         list.map((item, index) => {
                             return (
-                                <div className='w-1/4 flex flex-col justify-center items-center text-black cursor-pointer px-6 group/item hover:-translate-y-4 transition-all duration-300'>
+                                <div key={index}  className='w-1/4 flex flex-col justify-center items-center text-black cursor-pointer px-6 group/item hover:-translate-y-4 transition-all duration-300'>
                                     <img src={item.img}
                                         alt="img"
                                         className=' group-hover/item:rotate-y-[180deg] transition-all duration-300'/>
