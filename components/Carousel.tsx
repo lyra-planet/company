@@ -9,7 +9,11 @@ interface ImageProps {
 }
 
 const _Carousel = () => {
-
+    const urlList=[
+        "/first.jpg",
+        "/second.jpg",
+        "/third.jpg",
+    ]
 
     const Image = (props: ImageProps): JSX.Element => {
         return (
@@ -24,9 +28,9 @@ const _Carousel = () => {
     return (
         <div className='relative w-full h-fit max-h-full'>
             <Carousel className='h-full max-h-full' autoplay>
-                <Image url={"https://www.chnmuseum.cn/shxg/wwmt/202207/W020220721376938122860.jpg"} />
-                <Image url={"https://www.chnmuseum.cn/shxg/wwmt/202210/W020221026559113804110.jpg"} />
-                <Image url={"https://www.chnmuseum.cn/shxg/wwmt/202206/W020220701324482617325.jpg"} />
+                {
+                    urlList.map((url,index) => (<Image key={index} url={url} />))
+                }
             </Carousel >
             <div className='absolute h-full w-full top-0 left-0 text-5xl font-extrabold  flex justify-center font-lyra  items-center text-white flex-col'>
                 <p className='p-2'>
