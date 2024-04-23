@@ -60,9 +60,6 @@ const Product = () => {
                                 <div key={index} className='flex-grow border box-border h-[500px] border-white   transition-all duration-300 cursor-pointer bg-cover bg-center bg-no-repeat group/item relative'
                                     style={{ backgroundImage: `url(${item})` }}
                                 >
-                                    <div className='bg-blue-500 bg-opacity-90  h-5/6  rounded-br-[40px]  flex-col items-center p-10 text-white group-hover/item:scale-x-[100%] origin-left  scale-x-0 w-1/3 flex    transition-all duration-300'>
-                                        <p className=' tracking-widest text-xl' style={{ writingMode: 'vertical-lr' }} >{textList[index]}<PlayCircleOutlined className='pt-4  text-2xl' /></p>
-                                    </div>
                                     <p className='pt-10 tracking-widest text-xl absolute top-0 left-0 w-full h-full flex justify-start items-center text-white group-hover/item:scale-x-0  transition-all duration-300' style={{ writingMode: 'vertical-lr' }} >{textList[index]}<PlayCircleOutlined className='pt-4 text-3xl' /></p>
                                 </div>
                             )
