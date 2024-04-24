@@ -29,7 +29,7 @@ const Display = () => {
                         <div className='px-4 py-2 bg-blue-500 text-white rounded-xl mr-4 cursor-pointer hover:shadow-lg  transition-all duration-300 hover:scale-110'>
                             了解更多
                         </div>
-                        <div className='px-4 py-2 bg-gray-100 text-gray-500 rounded-xl cursor-pointer'>练习我们</div>
+                        <div className='px-4 py-2 bg-gray-100 text-gray-500 rounded-xl cursor-pointer'>联系我们</div>
                     </div>
                 </div>
                 <div className='w-1/2 flex  bg-cover bg-center bg-no-repeat relative rounded-r-3xl'
@@ -60,7 +60,7 @@ const Display = () => {
                         <div className='px-4 py-2 bg-blue-500 text-white rounded-xl mr-4 cursor-pointer hover:shadow-lg  transition-all duration-300 hover:scale-110'>
                             了解更多
                         </div>
-                        <div className='px-4 py-2 bg-gray-100 text-gray-500 rounded-xl cursor-pointer'>练习我们</div>
+                        <div className='px-4 py-2 bg-gray-100 text-gray-500 rounded-xl cursor-pointer'>联系我们</div>
                     </div>
                 </div>
             </div>
