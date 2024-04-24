@@ -11,10 +11,10 @@ const Product = () => {
         "https://omo-oss-image1.thefastimg.com//portal-saas/new2022072714593122412/cms/image/826e909e-b51f-422e-ac1f-4adef640b618.jpg"
     ]
     const textList = [
-        "结构力学性能研究",
-        "自定义测控分析系统",
-        "结构安全分析系统",
-        "设备故障分析系统"
+        "物联设备测控系统",
+        "设备故障分析系统",
+        "数据一体化处理平台",
+        "数据云边端管理平台"
     ]
     useEffect(() => {
     });
@@ -24,11 +24,11 @@ const Product = () => {
                 <div className='flex flex-row justify-between items-baseline'>
                     <div>
                         <div className='text-blue-500  text-3xl pb-2'>产品中心</div>
-                        <div className='text-5xl pb-10'>我也不知道咱能解决啥</div>
+                        <div className='text-5xl pb-10  text-nowrap'>工业物联生产感知解决方案</div>
                     </div>
                     <div  className='flex flex-col items-end'>
-                        <div className=' text-lg pb-1 text-gray-400'>国家高新技术企业</div>
-                        <div className=' text-lg text-gray-400'>专注于结构力学性能的智能化测试与分析系统研发和生产</div>
+                        <div className=' text-md pb-1 text-gray-400'>国家高新技术企业</div>
+                        <div className=' text-md text-gray-400 '>专注于解决工业物联生产感知和数据分析管理决策问题</div>
                     </div>
                 </div>
                 <div className='flex flex-row'>
@@ -51,7 +51,7 @@ const Product = () => {
             <div className='flex md:hidden flex-col justify-between '>
                 <div className='flex flex-col justify-between items-baseline'>
                         <div className='text-blue-500  text-xl pb-1'>产品中心</div>
-                        <div className='text-3xl pb-5'>我也不知道咱能解决啥</div>
+                        <div className='text-3xl pb-5'>工业物联生产感知解决方案</div>
                 </div>
                 <div className='flex flex-row w-full'>
                     {

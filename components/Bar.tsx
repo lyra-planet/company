@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { ArrowRightOutlined } from '@ant-design/icons';
 const Bar = () => {
-    const url = "/third.jpg"
+    const url = "/fifth.jpg"
     useEffect(() => {
     });
     return (

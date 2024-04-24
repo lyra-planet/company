@@ -11,8 +11,8 @@ interface ImageProps {
 const _Carousel = () => {
     const urlList=[
         "/first.jpg",
-        "/second.jpg",
-        "/third.jpg",
+        "/fourth.jpg",
+        "/six.jpg",
     ]
 
     const Image = (props: ImageProps): JSX.Element => {
@@ -37,7 +37,10 @@ const _Carousel = () => {
                     强盛智云☁️
                 </p>
                 <p className='p-2'>
-                    专业服务提供商
+                工业设备监测诊断专家
+
+
+
                 </p>
             </div>
         </div >

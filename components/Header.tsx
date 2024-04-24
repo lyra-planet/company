@@ -20,7 +20,7 @@ const Header = () => {
         <div className={`fixed w-full top-0 bg-white md:p-5 p-4  flex flex-row justify-between z-50
     transition-al duration-300 ` + (top ? 'bg-opacity-0 text-white ' : 'bg-opacity-100 shadow-lg')}>
             <div className="pr-10 flex flex-row items-center">
-                <img src="/logo.png" alt="logo" width={200}  height={200} />
+                <img src="/logo.jpg" alt="logo" width={200}  height={200} />
             </div>
             <div className="flex flex-row justify-end md:justify-between lg:w-3/5 md:w-4/5 w-full items-center">
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
