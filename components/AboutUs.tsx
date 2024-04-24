@@ -10,7 +10,7 @@ const AboutUs = () => {
     ]
     const asset = 'https://omo-oss-image.thefastimg.com/portal-saas/new2022072714593122412/cms/image/29eca6ce-3589-4eff-a261-da1f3331f2be.png'
     return (
-        <div className='bg-blue-500 md:min-h-[90vh] bg-cover bg-center bg-no-repeat bg-fixed relative' style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <div className='md:min-h-[90vh] bg-cover bg-center bg-no-repeat bg-fixed relative' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className='py-24 px-16 text-white hidden md:flex flex-col h-full'>
                 <div className='flex flex-row justify-between  items-baseline pb-16'>
                     <div>

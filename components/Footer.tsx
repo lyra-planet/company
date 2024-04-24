@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='bg-blue-500 w-full p-4 flex md:hidden text-xs  text-white text-opacity-40 flex-col'>
-            <p>Copyright © 2024  强盛智云(天津)科技有限公司  All Rights Reserved.   津ICP备2024013214号-1    网站建设：cute</p>
+            <p>Copyright © 2024  强盛智云(天津)科技有限公司  All Rights Reserved.   津ICP备2024013214号-1    网站建设：cuteLyra</p>
             <p>基于故障诊断和健康管理的智能设备维保管理平台</p>
             <p className='text-sm pt-5 text-nowrap'>联系我们   |   法律声明</p>
         </div>
