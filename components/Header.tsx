@@ -4,21 +4,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { SearchOutlined,WechatOutlined,MenuOutlined,UserOutlined} from '@ant-design/icons'
 const Header = () => {
-    const [top, setTop] = useState(true)
-
-    const handleScroll = () => {
-        const isTop = window.scrollY < 50; // 以50px为阈值判断是否接近顶部
-        if (isTop !== top) {
-            setTop(isTop);
-        }
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-    });
     return (
-        <div className={`fixed w-full top-0 bg-white md:p-5 p-4  flex flex-row justify-between z-50
-    transition-al duration-300 ` + (top ? 'bg-opacity-0 text-white ' : 'bg-opacity-100 shadow-lg')}>
+        <div className='fixed w-full top-0 bg-white md:p-5 p-4  flex flex-row justify-between z-50
+    transition-al duration-300 bg-opacity-100 shadow-lg'>
             <div className="pr-10 flex flex-row items-center">
                 <img src="/logo.jpg" alt="logo" width={200}  height={200} />
             </div>

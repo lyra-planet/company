@@ -10,9 +10,9 @@ interface ImageProps {
 
 const _Carousel = () => {
     const urlList=[
-        "/first.jpg",
-        "/fourth.jpg",
-        "/six.jpg",
+        "/w1.jpg",
+        "/w2.jpg",
+        "/w3.jpg",
     ]
 
     const Image = (props: ImageProps): JSX.Element => {
