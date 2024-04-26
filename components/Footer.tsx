@@ -1,12 +1,13 @@
 import React from 'react'
 import { CommentOutlined } from '@ant-design/icons';
+import Image from 'next/image';
 const Footer = () => {
     return (
         <>
         <div className='hidden md:block bg-blue-500 w-full py-16 px-10 text-white border-b border-white border-opacity-40'>
             <div className='flex flex-row justify-between'>
                 <div className='w-1/3'>
-                    <img src="/logo_white.jpg" alt="logo" width={200} height={200} />
+                    <Image src="/logo_white.jpg" alt="logo" width={200} height={200} />
                     <p className='text-xl py-1'>联系我们</p>
                     <p className='flex flex-row text-2xl items-center py-2'><CommentOutlined className='text-3xl pr-2' />13920961981</p>
 
@@ -50,7 +51,7 @@ const Footer = () => {
         <div className='block md:hidden bg-blue-500 w-full py-5 px-5 text-white border-b border-white border-opacity-40'>
             <div className='flex flex-row justify-between'>
                 <div className='w-full'>
-                    <img src="/logo_white.jpg" alt="logo" width={200} height={200} />
+                    <Image src="/logo_white.jpg" alt="logo" width={200} height={200} />
                     <p className='text-xl py-1'>联系我们</p>
                     <p className='flex flex-row text-2xl items-center py-2'><CommentOutlined className='text-3xl pr-2' />13920961981</p>
                     <p className=' text-gray-200 font-light text-sm '>邮箱：13920961981@163.com</p>
