@@ -10,7 +10,7 @@ const AboutUs = () => {
     ]
     const asset = 'https://omo-oss-image.thefastimg.com/portal-saas/new2022072714593122412/cms/image/29eca6ce-3589-4eff-a261-da1f3331f2be.png'
     return (
-        <div className='md:min-h-[90vh] bg-cover bg-center bg-no-repeat bg-fixed relative' style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <div className='md:max-h-[90vh] md:min-h-[60vh] bg-cover bg-center bg-no-repeat bg-fixed relative' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className='py-24 px-16 text-white hidden md:flex flex-col h-full'>
                 <div className='flex flex-row justify-between  items-baseline pb-16'>
                     <div>
@@ -55,7 +55,7 @@ const AboutUs = () => {
                     }
                 </div>
             </div>
-            <div className=' absolute bottom-0 left-0  w-full'>
+            <div className=' absolute bottom-0 left-0  w-full pointer-events-none'>
                 <img src={asset} className='w-full'/>
             </div>
         </div>

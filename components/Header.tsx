@@ -6,25 +6,25 @@ import { SearchOutlined,WechatOutlined,MenuOutlined,UserOutlined} from '@ant-des
 const Header = () => {
     return (
         <div className='fixed w-full top-0 bg-white md:p-5 p-4  flex flex-row justify-between z-50
-    transition-al duration-300 bg-opacity-100 shadow-lg'>
+    transition-al duration-300 bg-opacity-100 shadow-lg h-20'>
             <div className="pr-10 flex flex-row items-center">
                 <img src="/logo.jpg" width={200} alt="logo" />
             </div>
             <div className="flex flex-row justify-end md:justify-between lg:w-3/5 md:w-4/5 w-full items-center">
+            <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
+                    <Link href="/">主页</Link></div>
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="#">产品中心</Link></div>
+                    <Link href="/products">产品中心</Link></div>
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="#">解决方案</Link></div>
+                    <Link href="/">应用案例</Link></div>
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="#">应用案例</Link></div>
-                <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="#">业务领域</Link></div>
+                    <Link href="/">业务领域</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="#">服务支持</Link></div>
+                    <Link href="/">服务支持</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="#">投资关系</Link></div>
+                    <Link href="/">投资关系</Link></div>
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="#">强盛智云</Link></div>
+                    <Link href="/">强盛智云</Link></div>
                 <div className=" bg-blue-500 p-3 text-white rounded-3xl hover:cursor-pointer hover:shadow-lg hover:scale-110 transition-all duration-300 hidden md:block">登录与注册</div>
                 <div className='pr-5 md:hidden'><SearchOutlined className='text-xl' /></div>
                 <div className='pr-5 md:hidden'><WechatOutlined className='text-xl' /></div>
