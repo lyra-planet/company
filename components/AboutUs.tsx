@@ -18,7 +18,7 @@ const AboutUs = () => {
                         <div className=' text-5xl'>开启智能科技发展新征程</div>
                     </div>
                     <div className='flex flex-col items-end'>
-                        <div className=' text-md pb-1 text-gray-400 '>国家高新技术企业</div>
+                        <div className=' text-md pb-1 text-gray-400 '>入驻天开高教科创园</div>
                         <div className=' text-md text-gray-400'>专注于解决工业物联生产感知和数据分析管理决策问题</div>
                     </div>
                 </div>
