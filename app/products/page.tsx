@@ -21,9 +21,10 @@ import {
 export default function Products() {
   return (
     <>
-      <div className="h-screen pt-20 bg-neutral-100 flex flex-col">
-        <div className=" flex-grow flex flex-row">
-          <section className="block flex-col h-full text-nowrap border-r w-48 border-gray-100 bg-white text-xl ">
+      <div className="min-h-screen pt-20 bg-neutral-100 flex flex-col">
+        <div className="flex-grow flex flex-row h-full relative">
+          <div className="min-w-48 flex-grow block bg-white"></div>
+          <section className="block flex-col flex-grow h-full text-nowrap w-48   text-xl fixed top-0 pt-20 ">
             <div className=" border-b flex flex-row justify-center py-3 text-2xl">
               账号中心
             </div>
@@ -48,7 +49,7 @@ export default function Products() {
               回到首页
             </div>
           </section>
-          <section className="flex-grow px-10 flex flex-col mb-10">
+          <section className=" flex-grow px-10 flex flex-col mb-10">
             <div className="  flex flex-row justify-start py-3 text-2xl">
               我的云服务
             </div>
@@ -83,7 +84,7 @@ export default function Products() {
             <div className="  flex flex-row justify-start py-3 text-2xl">
               已购产品
             </div>
-            <div className="h-[400px] py-5 grid grid-cols-3 grid-rows-2 flex-grow  gap-16">
+            <div className=" py-5 grid grid-cols-3 grid-rows-2 flex-grow  gap-16">
               <div className="bg-white flex justify-center items-center  text-2xl hover:scale-110  transition-all group cursor-pointer">
                 <p className="group-hover:scale-125 transition-all">
                   + 新增产品
