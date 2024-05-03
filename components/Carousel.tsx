@@ -13,6 +13,7 @@ const _Carousel = () => {
         "/w1.jpg",
         "/w2.jpg",
         "/w3.jpg",
+        "/w5.jpg"
     ]
 
     const Image = (props: ImageProps): JSX.Element => {
