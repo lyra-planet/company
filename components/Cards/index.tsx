@@ -10,8 +10,7 @@ const Cards = () => {
                 <div className='transition-all duration-300 w-1/2 h-full flex flex-col justify-center px-16 overflow-hidden relative '>
                     <div className='mb-4'>   <Image src="/logo.jpg" alt="logo" width={150} height={150} /></div>
                     <div className=' text-3xl font-bold pb-4'>强盛研发中心 </div>
-                    <div className='text-sm pb-10'>强盛智云拥有硅片、电池、组件及解决方案研发中心，与多伦多大学、新加坡国立大学、天津工业大学等科研院所
-建立战略合作关系，加强产学研合作与技术交流，为技术创新提供保障，并入驻天开高教科创园。</div>
+                    <div className='text-sm pb-10'>强盛智云拥有硅片、电池、组件及解决方案研发中心，与多伦多大学、新加坡国立大学、天津工业大学等科研院所建立战略合作关系，加强产学研合作与技术交流，为技术创新提供保障，并入驻天开高教科创园。</div>
                     <div className=' flex flex-row justify-start'>
                         <div className='px-4 py-2 bg-blue-500 text-white rounded-xl mr-4 cursor-pointer hover:shadow-lg  transition-all duration-300 hover:scale-110 group/button'>
                             了解更多<ArrowRightOutlined className=' 
@@ -27,8 +26,7 @@ const Cards = () => {
             <div className='flex md:hidden flex-col justify-between h-full  transition-all duration-300  '>
                 <div className=' transition-all duration-300 w-full flex flex-col justify-center px-4 py-6'>
                     <div className=' text-4xl font-bold pb-4'>强盛研发中心 </div>
-                    <div className='text-sm pb-10'>强盛智云拥有硅片、电池、组件及解决方案研发中心，与多伦多大学、新加坡国立大学、天津工业大学等科研院所
-建立战略合作关系，加强产学研合作与技术交流，为技术创新提供保障，并入驻天开高教科创园。</div>
+                    <div className='text-sm pb-10'>强盛智云拥有硅片、电池、组件及解决方案研发中心，与多伦多大学、新加坡国立大学、天津工业大学等科研院所建立战略合作关系，加强产学研合作与技术交流，为技术创新提供保障，并入驻天开高教科创园。</div>
                     <div className=' flex flex-row justify-start'>
                     <div className='px-4 py-2 bg-blue-500 text-white rounded-xl mr-4 cursor-pointer hover:shadow-lg  transition-all duration-300 hover:scale-110 group/button'>
                             了解更多<ArrowRightOutlined className=' 
