@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
                     <Link href="http://118.25.85.189:8086/index.html">数据大屏</Link></div>
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="/">业务领域</Link></div>
+                    <Link href="http://118.25.85.189:8019/">数据平台</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
                     <Link href="/">服务支持</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
