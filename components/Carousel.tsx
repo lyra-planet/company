@@ -39,9 +39,6 @@ const _Carousel = () => {
                 </p>
                 <p className='p-2 text-center'>
                 行业垂类模型专家
-
-
-
                 </p>
             </div>
         </div >
