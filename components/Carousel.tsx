@@ -38,7 +38,7 @@ const _Carousel = () => {
                     强盛智云☁️
                 </p>
                 <p className='p-2 text-center'>
-                工业设备监测诊断专家
+                行业垂类模型专家
 
 
 
