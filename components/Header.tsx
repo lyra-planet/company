@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { SearchOutlined,WechatOutlined,MenuOutlined,UserOutlined} from '@ant-design/icons'
+import { SearchOutlined,RobotOutlined,MenuOutlined,UserOutlined} from '@ant-design/icons'
 const Header = () => {
     return (
         <div className='fixed w-full top-0 bg-white md:p-5 p-4  flex flex-row justify-between z-50
@@ -27,7 +27,11 @@ const Header = () => {
                     <Link href="/">强盛智云</Link></div>
                 <div className=" bg-blue-500 p-3 text-white rounded-3xl hover:cursor-pointer hover:shadow-lg hover:scale-110 transition-all duration-300 hidden md:block">登录与注册</div>
                 <div className='pr-5 md:hidden'><SearchOutlined className='text-xl' /></div>
-                <div className='pr-5 md:hidden'><WechatOutlined className='text-xl' /></div>
+                <div className='pr-5 md:hidden'>
+                <Link href="https://share.fastgpt.in/chat/share?shareId=0iags44jjpml7pdxacicptlt">
+                <RobotOutlined className='text-xl' />
+                </Link>
+                </div>
                 <div className='pr-5 md:hidden'><UserOutlined className='text-xl' /></div>
                 <div className='pr-5 md:hidden'><MenuOutlined className='text-xl' /></div>
             </div>
