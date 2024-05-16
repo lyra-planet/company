@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
                     <Link href="http://118.25.85.189:8019/">数据平台</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="/">服务支持</Link></div>
+                    <Link href="https://share.fastgpt.in/chat/share?shareId=0iags44jjpml7pdxacicptlt">智能助手</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
                     <Link href="/">投资关系</Link></div>
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
