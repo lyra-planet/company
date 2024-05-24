@@ -24,7 +24,7 @@ export default function Products() {
       <div className="min-h-screen pt-20 bg-neutral-100 flex flex-col">
         <div className="flex-grow flex flex-row h-full relative">
 
-        <iframe src="https://share.fastgpt.in/chat/share?shareId=0iags44jjpml7pdxacicptlt" className="w-full" frameborder="0"></iframe>
+        <iframe src="https://share.fastgpt.in/chat/share?shareId=0iags44jjpml7pdxacicptlt" className="w-full"></iframe>
         </div>
       </div>
     </>
