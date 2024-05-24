@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
                     <Link href="http://118.25.85.189:8019/">数据平台</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
-                    <Link href="https://share.fastgpt.in/chat/share?shareId=0iags44jjpml7pdxacicptlt">灵眸AI</Link></div>
+                    <Link href="/ai">灵眸AI</Link></div>
                 <div className=" transition-all duration-300 hover:text-blue-500 hidden md:block">
                     <Link href="/">投资关系</Link></div>
                 <div className="transition-all duration-300 hover:text-blue-500 hidden md:block">
@@ -28,7 +28,7 @@ const Header = () => {
                 <div className=" bg-blue-500 p-3 text-white rounded-3xl hover:cursor-pointer hover:shadow-lg hover:scale-110 transition-all duration-300 hidden md:block">登录与注册</div>
                 <div className='pr-5 md:hidden'><SearchOutlined className='text-xl' /></div>
                 <div className='pr-5 md:hidden'>
-                <Link href="https://share.fastgpt.in/chat/share?shareId=0iags44jjpml7pdxacicptlt">
+                <Link href="/ai">
                 <RobotOutlined className='text-xl' />
                 </Link>
                 </div>
